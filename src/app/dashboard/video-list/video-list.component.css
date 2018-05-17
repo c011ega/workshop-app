@@ -1,0 +1,18 @@
+.video-collection-item {
+    
+}
+.video-collection-item.striped {
+    background-color: #ececec;
+}
+
+.video-collection-item a {
+    display: block;
+    padding: 5px;
+}
+.video-collection-item a:hover {
+    background-color: powderblue;
+}
+.video-collection-item a.current-item {
+    background-color: seagreen;
+    color: #fff;
+}

@@ -1,3 +1,10 @@
-<p>
-  video-list works!
-</p>
+<section class="app-section">
+  <div class="app-section-content">
+    <h2 class="app-section-title">Video List</h2>
+    <ul class="video-collection">
+      <li class="video-collection-item" *ngFor="let video of VideoList; even as shouldStripe" [class.striped]="shouldStripe">
+        <a (click)="setCurrentVideo(video.id)" [ngClass]="isCurrent(video.id)">{{video.title}} ({{video.author}})</a>
+      </li>
+    </ul>
+  </div>
+</section>

@@ -1,0 +1,12 @@
+.app-video-list {
+    float: left;
+    width: 30%;
+}
+.app-video-player {
+    float: left;
+    width: 50%;
+}
+.app-video-stat {
+    float: left;
+    width: 18%;
+}
