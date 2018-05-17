@@ -1,0 +1,21 @@
+.app-header {
+    display: block;
+    border: 1px solid blue;
+}
+
+nav {
+    height: 64px;
+    line-height: 64px;
+    margin-bottom: 24px;
+}
+nav .nav-wrapper {
+    position: relative;
+    height: 100%;
+}
+.nav-wrapper {
+    background-color: blueviolet;
+}
+
+.app-menu {
+    display: inline;
+}

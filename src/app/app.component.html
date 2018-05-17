@@ -1,0 +1,39 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<header class="app-header">
+  <h1 class="app-title">
+    {{ title }}
+  </h1>
+  <nav>
+    <div class="nav-wrapper">
+        <ul class="app-menu">
+            <li routerLinkActive="app-menu-selected"><a [routerLink]="['/dashboard']">Dashboard</a></li>
+            <li routerLinkActive="app-menu-selected"><a [routerLink]="['/help']">Help</a></li>
+        </ul>
+    </div>
+  </nav>
+</header>
+
+
+
+
+<router-outlet></router-outlet>
+
+<footer>
+  <div class="app-footer">
+    First Angular Application ;-)
+  </div>
+</footer>
+
+
+<h2>Here are some links to help you start: </h2>
+<ul>
+  <li>
+    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
+  </li>
+  <li>
+    <h2><a target="_blank" rel="noopener" href="https://github.com/angular/angular-cli/wiki">CLI Documentation</a></h2>
+  </li>
+  <li>
+    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
+  </li>
+</ul>
